@@ -1,4 +1,4 @@
-package com.beshoy.tracer;
+package com.example;
 
 public class TracerRenderer {
     public static void register() {
