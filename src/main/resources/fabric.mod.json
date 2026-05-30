@@ -1,38 +1,17 @@
 {
-	"schemaVersion": 1,
-	"id": "bngrab",
-	"version": "$1.0",
-	"name": "tracer mod",
-	"description": "This is tracer mod! Tell everyone what your mod is about!",
-	"authors": [
-		"Me!"
-	],
-	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
-	},
-	"license": "CC0-1.0",
-	"icon": "assets/modid/icon.png",
-	"environment": "*",
-	"entrypoints": {
-		"main": [
-			"com.example.ExampleMod"
-		],
-		"client": [
-			"com.example.client.ExampleModClient"
-		]
-	},
-	"mixins": [
-		"modid.mixins.json",
-		{
-			"config": "modid.client.mixins.json",
-			"environment": "client"
-		}
-	],
-	"depends": {
-		"fabricloader": ">=0.19.2",
-		"minecraft": "~26.1.2",
-		"java": ">=25",
-		"fabric-api": "*"
-	}
+  "schemaVersion": 1,
+  "id": "tracer",
+  "version": "1.0",
+  "name": "Tracer Hitbox",
+  "description": "Green tracer and hitbox ESP",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.beshoy.tracer.TracerMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.2",
+    "fabric-api": "*"
+  }
 }
