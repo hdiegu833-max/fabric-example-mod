@@ -6,9 +6,9 @@
   "description": "Green tracer and hitbox ESP",
   "environment": "client",
   "entrypoints": {
-    "client": [
-      "com.beshoy.tracer.TracerMod"
-    ]
+  "main": [
+    "com.example.ExampleMod"
+  ]
   },
   "depends": {
     "fabricloader": ">=0.19.2",
