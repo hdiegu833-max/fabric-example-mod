@@ -1,4 +1,4 @@
-package com.beshoy.tracer;
+package com.example;
 
 import net.fabricmc.api.ClientModInitializer;
 import net.fabricmc.fabric.api.client.keybinding.v1.KeyBindingHelper;
